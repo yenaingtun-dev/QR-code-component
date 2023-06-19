@@ -6,8 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Screenshot](#screenshot)
 - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Author](#author)
 
 ### Screenshot
@@ -16,8 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-qr-code-with-tailwind-css-DomOUdod5U)
+- Live Site URL: [Add live site URL here](https://qr-code-component-mu-teal.vercel.app/)
 
 ### Built with
 
@@ -29,5 +28,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yenaingtun-dev)
-- Twitter - [@yourusername](https://twitter.com/Sammy_999_)
+- Frontend Mentor - [@yenaingtun-dev](https://www.frontendmentor.io/profile/yenaingtun-dev)
+- Twitter - [@Sammy*999*](https://twitter.com/Sammy_999_)
