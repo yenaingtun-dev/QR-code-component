@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | QR code component</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Frontend Mentor | QR code component</title>
-
-</head>
-
-<body class="bg-[#d6e2f0] flex items-center justify-center h-screen">
-  <div class="max-w-[15rem] bg-white rounded-md p-2">
-    <div class="flex items-center justify-center">
-      <img class=" rounded-md" src="/images/image-qr-code.png" alt="">
-    </div>
-    <div class="mt-4 text-center"> 
-      <h3 class="font-bold">Improve your front-end skills by building projects</h3>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </div>
-  </div>
-
-  <!-- <footer class="h-10">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Ye Naing Tun</a>.
-  </footer> -->
-</body>
-
+  <body class="bg-[#d6e2f0] font-[Outfit]">
+    <section class="flex flex-col items-center justify-center h-screen">
+      <div class="max-w-[17rem] bg-white rounded-xl p-2">
+        <div class="flex items-center justify-center">
+          <img class="rounded-xl" src="/images/image-qr-code.png" alt="" />
+        </div>
+        <div class="max-w-[13rem] mx-auto text-center mb-8">
+          <h3 class="font-bold mt-5 mb-3 leading-tight text-lg text-gray-800">
+            Improve your front-end skills by building projects
+          </h3>
+          <p class="text-[15px] text-gray-400 leading-4">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+      <footer class="fixed inset-x-0 bottom-0 text-center">
+        <p class="text-sm text-gray-600">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a>. Coded by <a target="_blank" href="https://github.com/yenaingtun-dev">Ye Naing Tun</a>.
+        </p>
+      </footer>
+    </section>
+  </body>
 </html>
